@@ -15,16 +15,16 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 flatpak install flathub org.freedesktop.Platform//19.08
 flatpak install flathub org.freedesktop.Sdk//19.08
 # Build and install the base Ur-Quan Masters MegaMod app
-flatpak-builder --install --user builddir com.github.serosis.UQM_MegaMod.json --force-clean
+flatpak-builder --install --user builddir net.serosis.megamod.json --force-clean
 ```
 
 Optional add-ons are available as extensions. To build and install the add-on you want to use, complete the above steps and then:
 
 ```bash
 # HD content
-flatpak-builder --install --user builddir com.github.serosis.UQM_MegaMod.AddOn.HD.json --force-clean
+flatpak-builder --install --user builddir net.serosis.megamod.addon.HD.json --force-clean
 # 3DO voices
-flatpak-builder --install --user builddir com.github.serosis.UQM_MegaMod.AddOn.Voice3DO.json --force-clean
+flatpak-builder --install --user builddir net.serosis.megamod.addon.Voice3DO.json --force-clean
 ```
 
 ## Running
@@ -32,13 +32,13 @@ flatpak-builder --install --user builddir com.github.serosis.UQM_MegaMod.AddOn.V
 To run the game, either use the launcher shortcut, or:
 
 ```bash
-flatpak run com.github.serosis.UQM_MegaMod
+flatpak run net.serosis.megamod
 ```
 
 To uninstall, run
 
 ```bash
-flatapk remove com.github.serosis.UQM_MegaMod
+flatapk remove net.serosis.megamod
 ```
 
 This will also remove any installed extensions.

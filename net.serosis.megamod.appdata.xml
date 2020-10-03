@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>com.github.serosis.UQM_MegaMod</id>
+  <id>net.serosis.megamod</id>
   <name>The Ur-Quan Masters Mega Mod</name>
   <project_license>GPL-2.0</project_license>
   <developer_name></developer_name>

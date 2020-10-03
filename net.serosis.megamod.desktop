@@ -2,5 +2,6 @@
 Name=The Ur-Quan Masters MegaMod
 Exec=launch.sh
 Type=Application
-Icon=com.github.serosis.UQM_MegaMod
+Icon=net.serosis.megamod
 Categories=Game;
+Name[en_US]=net.serosis.megamod.desktop

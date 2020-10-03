@@ -1,7 +1,7 @@
 {
-    "id": "com.github.serosis.UQM_MegaMod.AddOn.HD",
+    "id": "net.serosis.megamod.addon.Voice3DO",
     "branch": "0.8",
-    "runtime": "com.github.serosis.UQM_MegaMod",
+    "runtime": "net.serosis.megamod",
     "runtime-version": "stable",
     "sdk": "org.freedesktop.Platform//19.08",
     "build-extension": true,
@@ -9,18 +9,18 @@
     "appstream-compose": false,
     "modules": [
         {
-            "name": "addon-mm-hd",
+            "name": "addon-3dovoice",
             "sources": [
                 {
                     "type": "file",
-                    "url": "http://files.serosis.net/MegaMod/uqm-mm-hd.uqm",
-                    "sha256": "054370ef206ac96f33f20ddb2e429ed6e10cc50ce44afb34dbeba4747e46c89f"
+                    "url": "http://files.serosis.net/MegaMod/0.8.0.85/uqm-0.8.0-3dovoice.uqm",
+                    "sha256": "5e3b6eb31ade309d9be825a276134de75280da88ae8621774908395465bf00df"
                 }
             ],
             "buildsystem": "simple",
             "build-commands": [],
             "post-install": [
-                "install -Dm444 uqm-mm-hd.uqm ${FLATPAK_DEST}/addons/uqm-mm-hd.uqm"
+                "install -Dm444 uqm-0.8.0-3dovoice.uqm ${FLATPAK_DEST}/addons/uqm-0.8.0-3dovoice.uqm"
             ]
         }
     ]
